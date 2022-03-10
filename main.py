@@ -3,3 +3,6 @@
 #instead the master password is the encryption key itself
 #if you hash the master password, you will get the encryption key
 
+import hash
+
+
