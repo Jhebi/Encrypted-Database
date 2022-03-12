@@ -94,6 +94,7 @@ hashkey = {
 #characters
 #ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890~`!@#$%^&*()_-+={[}]|:'<,>.?/
 
+#hash the word by replacing each character with the equivalent value from the hashkey dictionary
 def hash(word):
     word_length = len(word)
     hashed = ""
