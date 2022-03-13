@@ -21,7 +21,7 @@ key = hash.hash(masterpass)
 
 #insert to database or retrieve?
 print("(1) insert \n(2) retrieve")
-choice = input()
+choice = int(input())
 if choice == 1:
     print("Enter name: ", end = "")
     name = input()
